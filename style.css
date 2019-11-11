@@ -1,0 +1,373 @@
+
+body {
+        padding: 0;
+        margin: 0;
+        font-family:'avenir next condensed',bold;
+        color: white;
+        background-color: black;
+
+    }
+    
+nav {
+        padding-top: 50px;
+    }
+    
+ nav ul {
+    text-align: center;    
+  
+}
+
+ nav ul li {
+    display:inline;
+    font-size: 18px;
+     margin-left: 25px;
+     margin-right: 25px;
+
+
+}
+ nav a:link {color:#fff}
+ nav a:visited {color:#fff}
+ nav a:hover {border-bottom:none; color: #d84128}
+    
+    
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #000000;
+    
+}
+.grid-item {
+  text-align: center;
+  color: white;
+}
+
+.monogram {
+padding-left:50px;
+}
+
+.grid-item-content {
+  grid-template-columns: auto;}
+
+
+h1, h2, h3, p {
+    margin: auto;
+    max-width: 800px;
+}
+
+/* HOME SCREEN CONTENT */
+
+/* START OF PARALEX */
+
+.parallax {
+  
+  background-image: url(images/wallpaperdesign1.svg);
+  min-height: 600px; 
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+background-color: black;
+
+}
+
+/* END OF PARALEX */
+
+
+/* HOME SCREEN CONTENT */
+
+.content   {
+    
+padding-top: 150px;
+
+}
+
+.content h1 {
+font-size: 2.5em;
+ text-align: center;
+padding-left: 20px;
+}
+
+
+ 
+/*------------------------------- TYPOGRAPHY -----------------------------------*/
+
+p {color:white;
+}
+
+.skills p {color: black;}
+
+.light-text {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size:1.5em;
+}
+
+a:hover { color: #d84128;
+    transition: ease-in, 0.5s;
+    
+}
+
+.box a h3 { text-decoration: none;
+    color: black;
+     
+    
+}
+
+.box a h3:link {color:#fff}
+.box a h3:visited {color:#fff}
+.box a h3:hover {border-bottom:none; color: #d84128}
+
+
+.box a h3: hover { color:#d84128;
+    transition: ease-in, 0.5s; 
+    
+
+}
+
+.socialmedia{
+    align-content: center;
+    text-align: center;  
+
+}
+
+.connections{
+    align-content: center;
+    margin-top: 100px;
+    padding: 0;
+ 
+}
+
+
+
+
+.socialmedia ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}
+
+
+
+/*---------------------------------- ABOUT  ------------------------------------*/
+
+.about {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    font-size: 1.5em;
+    padding: 120px 0px;
+    
+}
+
+.about-img {
+    margin: auto;
+    width: 75%;
+    max-width: 800px 
+
+}
+
+
+
+#about p {
+    
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+.about-text {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    
+}
+h2
+
+{
+    font-size: 4.5em;
+    color: white;
+    font-family: 'avenir next condensed';
+    text-align: center;
+    letter-spacing: 6px;
+    padding-bottom: 20px;
+  
+}
+
+.black { color: black;}
+.white {color: white;}
+
+
+
+
+/*----------------------------- Portfolio/ skills  -------------------------------------*/
+.title {
+    clear:both;
+}
+
+
+.portfolio-title {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+    font-size: 1.5em;
+    height: 650px;
+}
+
+#portfolio {
+    height: 800px;
+    max-height: 800px;
+    width: 100%;
+    max-width: 100%;
+    background-color:white;
+    text-decoration: black;
+}
+
+
+
+#skills {
+    height: 800px;
+    max-height: 800px;
+    width: 100%;
+    max-width: 100%;
+    background-color:white;
+    text-decoration-color: black;
+}
+
+
+.skills-section {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns:  1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    font-size: 1em;
+    height: 650px;
+    justify-items: center;
+}
+    
+
+.pencil {
+        grid-column: 2 / -1;
+        grid-row: 1;
+        
+     
+}
+
+
+/*--------------------------------- Contact/footer  -----------------------------------*/
+
+#contact-me {
+    
+    font-size: 2em;
+    text-align: center;
+    font-family: 'avenir next condensed';
+   
+    
+}
+
+
+#contact-title h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+
+
+
+#footer {
+    
+    background-color: black;
+    height: 350px;
+    padding-top: 30px;
+
+}
+
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+    padding-top: 50px;
+    padding: 50px;
+
+}
+
+.header-box {
+            grid-column: 1 / -1;
+            grid-row: 1;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-size: 150%;
+  text-align: center;
+}
+
+
+
+
+.button {
+  background-color: #ED5037; 
+  border: none;
+  color: white;
+  padding: 10px 65px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 30px;
+    font-family: 'avenir next condensed',bold;
+
+}
+
+
+.button-cta {
+  background-color: black; 
+  color: white; 
+  border: 2px solid #ED5037;
+}
+
+.button-cta:hover {
+  background-color: #ED5037;
+  color: white;
+}
+
+main { margin: 50px; padding: 50px;}
+
+main img {width: 100%; padding-top: 50px; padding-bottom: 50px;}
+
+main p { font-size: 2em;
+    
+}
+
+main h3 {
+    font-size: 2em;
+    
+}
+
