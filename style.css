@@ -61,7 +61,8 @@ h1, h2, h3, p {
 .parallax {
   
   background-image: url(images/wallpaperdesign1.svg);
-  min-height: 600px; 
+  min-height: 650px;
+    
 
   /* parallax scrolling effect */
   background-attachment: fixed;
@@ -79,24 +80,34 @@ background-color: black;
 
 .content   {
     
-padding-top: 200px;
+padding-top: 256px;
 
 }
 
 .content h1 {
-font-size: 2.5em;
+font-size: 4.1em;
+ text-align: center;
+padding-left: 20px;
+}
+
+.contentsmall h1 {
+font-size: 1.65em;
  text-align: center;
 padding-left: 20px;
 }
 
 
  
-/*------------------------------- TYPOGRAPHY -----------------------------------*/
-
+/*------------------------------- TYPOGRAPHY -----------------------------------*/5
 p {color:white;
 }
 
-.skills p {color: black;}
+.skills p {color: black;
+font-size: .85em;
+margin-top: 40px;
+    margin-left:80px;
+    margin-right: 80px;
+}
 
 .light-text {
     color: white;
@@ -107,6 +118,7 @@ a {
     color: white;
     font-size:1.5em;
 }
+
 
 a:hover { color: #d84128;
     transition: ease-in, 0.5s;
@@ -129,6 +141,11 @@ a:hover { color: #d84128;
     
 
 }
+
+#guidelines {
+    font-size: .7em;
+}
+
 
 .socialmedia{
     align-content: center;
@@ -165,8 +182,9 @@ a:hover { color: #d84128;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
-    font-size: 1.5em;
-    padding: 120px 0px;
+    font-size: 1.3em;
+    padding: 100px 0px;
+    padding-bottom: 130px;
     
 }
 
@@ -186,7 +204,7 @@ a:hover { color: #d84128;
 }
 
 .about-text {
-    padding-right: 50px;
+    padding-right: 70px;
     padding-left: 50px;
     padding-top: 100px;
     
@@ -290,7 +308,7 @@ h2
 
 #footer {
     
-    background-color: black;
+    background-color: #151515;
     height: 350px;
     padding-top: 30px;
 
@@ -310,6 +328,7 @@ h2
     padding: 50px;
 
 }
+
 
 .header-box {
             grid-column: 1 / -1;
@@ -348,7 +367,7 @@ h2
 
 
 .button-cta {
-  background-color: black; 
+  background-color: #151515; 
   color: white; 
   border: 2px solid #ED5037;
 }
@@ -362,12 +381,22 @@ main { margin: 50px; padding: 50px;}
 
 main img {width: 100%; padding-top: 50px; padding-bottom: 50px;}
 
-main p { font-size: 2em;
+main p { font-size: 1.2em;
     
 }
 
+
+main video {width: 100%; padding-top: 50px; padding-bottom: 50px;}
+
 main h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     
+}
+
+main span {
+    font-size: 1em;
+    font-family:'avenir next condensed';
+    text-decoration: none;
+
 }
 
