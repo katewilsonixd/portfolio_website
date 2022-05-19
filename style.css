@@ -126,6 +126,7 @@ a:hover { color: #33CCFF;
 
 .box a h3 { text-decoration: none;
     color: black;
+    line-height: 55px
      
     
 }
@@ -203,9 +204,11 @@ a:hover { color: #33CCFF;
 }
 
 .about-text {
-    padding-right: 80px;
+    padding-right: 78px;
     padding-left: 50px;
     padding-top: 100px;
+    line-height: 30px;
+    font-size: 1em
     
 }
 h2
