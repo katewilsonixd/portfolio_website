@@ -1,4 +1,3 @@
-
 body {
         padding: 0;
         margin: 0;
@@ -98,7 +97,7 @@ padding-left: 20px;
 
 
  
-/*------------------------------- TYPOGRAPHY -----------------------------------*/5
+/*------------------------------- TYPOGRAPHY -----------------------------------*/
 p {color:white;
 }
 
@@ -136,8 +135,8 @@ a:hover { color: #d84128;
 .box a h3:hover {border-bottom:none; color: #d84128}
 
 
-.box a h3: hover { color:#d84128;
-    transition: ease-in, 0.5s; 
+.box a h3:hover { color:#d84128;
+    transition:ease-in, 0.5s; 
     
 
 }
@@ -250,6 +249,25 @@ h2
     background-color:white;
     text-decoration: black;
 }
+.whitebg {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-section {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    font-size: 1em;
+    height: 100%;
+    justify-items: center;
+    max-width: 1000px;
+
+}
+.portfolio-section p {
+    color: black;
+}
 
 
 
@@ -341,7 +359,9 @@ h2
   padding: 20px;
   font-size: 150%;
   text-align: center;
+  width: auto;
 }
+
 
 
 
@@ -399,4 +419,3 @@ main span {
     text-decoration: none;
 
 }
-
