@@ -406,11 +406,15 @@ h2
   color: white;
 }
 
-main { margin: 50px; padding: 50px;}
+main { margin: 50px; padding: 50px;
+background-color: }
 
 main img {width: 100%; padding-top: 50px; padding-bottom: 50px;}
 
-main p { font-size: 1.2em;
+main p { font-size: 1.em;
+    margin: 10px;
+    text-align:left;
+    line-height: 30px
     
 }
 
@@ -418,8 +422,22 @@ main p { font-size: 1.2em;
 main video {width: 100%; padding-top: 50px; padding-bottom: 50px;}
 
 main h3 {
-    font-size: 1.5em;
+    font-size: 4.5em;
+    margin-left: 10px;
+    margin-bottom:40px;
+    margin-top: 40px
     
+}
+
+main h4 {
+    margin-left: 10px;
+    font-size:1.2em;
+    margin-top: 40px
+}
+
+main h5 {
+    margin-left: 10px;
+    font-size:1.2em;
 }
 
 main span {
